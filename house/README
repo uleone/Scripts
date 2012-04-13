@@ -1,3 +1,10 @@
 Welcome to Script Repo
 -----------------------------------
-In this repo, there are some scripts to help us to download house price informations from beijing.anjuke.com. The output are some CSV files. You can use your office to open it.
+自动下载安居客房价信息并保存成CSV文件，保存目录：~/house/
+
+使用方法：
+house.sh下载最新发布的房价信息，不分地区，不分小区。
+house_in.sh可指定地名和小区名。
+
+./house.sh
+./house_in.sh 地名/小区名(例：./house_in 回龙观)
